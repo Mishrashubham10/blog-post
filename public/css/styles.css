@@ -1,0 +1,213 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 4.3rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* Styling Navbar */
+.navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #777;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.nav-heading {
+    color: #777;
+    letter-spacing: 2.5px;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    margin-inline: 10px;
+    color: #777;
+    letter-spacing: 2.5px;
+}
+
+.nav-item:hover {
+    color: #45CFDD;
+    opacity: .8;
+}
+
+/* Home Page */
+.home {
+    height: 82vh;
+    background-color: #fff;
+    max-width: 68%;
+    margin: 3.25rem auto;
+}
+
+/* Post Page */
+.post {
+    height: 82vh;
+    background-color: #fff;
+    max-width: 68%;
+    margin: 3.25rem auto;
+}
+
+/* About Page */
+.about {
+    height: 82vh;
+    background-color: #fff;
+    max-width: 68%;
+    margin: 3.25rem auto;
+}
+
+/* Contact Page */
+.contact {
+    height: 82vh;
+    background-color: #fff;
+    max-width: 68%;
+    margin: 3.25rem auto;
+}
+
+/* Compose Page */
+.compose {
+    height: 82vh;
+    background-color: #fff;
+    max-width: 68%;
+    margin: 3.25rem auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 98%;
+    gap: 1rem;
+    margin: 5px;
+    padding: 10px 0;
+}
+
+.form-group label {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+
+.form-group textarea {
+    border: .7px solid gray;
+    font-size: 1.5rem;
+}
+
+.form-group textarea:focus {
+    outline: none;
+}
+
+form input[type="text"] {
+    padding: 8px 0;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 1.5rem;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+}
+
+form button {
+    border: none;
+    background: #164B60;
+    color: #fff;
+    width: 80px;
+    padding: 8px 0;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    margin-right: 5px;
+}
+
+form button:hover {
+    background: #2D4356;
+    color: #777;
+    font-weight: bold;
+}
+
+.page-heading {
+    margin: 10px 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.page-content {
+    margin: 20px 0;
+    padding: 0 10px;
+    overflow: hidden;
+    line-height: 1.5;
+    font-size: .8rem;
+    font-weight: 400;
+    color: #333;
+    max-width: 95%;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-color: #2D4356;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.dynamic-content {
+    margin: 1.56rem 0;
+    padding: 10px 0;
+}
+
+.dynamic-content .dynamic-title {
+    margin: 2rem 0;
+}
+
+.dynamic-content .dynamic-para {
+    margin: 10px 0;
+}
